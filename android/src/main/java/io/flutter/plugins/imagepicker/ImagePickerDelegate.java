@@ -518,7 +518,6 @@ public class ImagePickerDelegate
           new OnPathReadyListener() {
             @Override
             public void onPathReady(String path) {
-              String path = fileUtils.getPathFromUri(activity, data.getData());
               MediaMetadataRetriever mmr = new MediaMetadataRetriever();
               mmr.setDataSource(path);
               //获取第一帧图像的bitmap对象
