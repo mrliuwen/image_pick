@@ -1,0 +1,4 @@
+#Wed May 29 09:56:01 CST 2019
+base.0=/Users/mac/Desktop/github/plugins/packages/image_picker/example/build/app/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

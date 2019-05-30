@@ -1,0 +1,186 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml:1:1-19:12
+INJECTED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml:1:1-19:12
+INJECTED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml:1:1-19:12
+INJECTED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml:1:1-19:12
+MERGED from [:video_player] /Users/mac/Desktop/github/plugins/packages/image_picker/example/build/video_player/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:image_picker] /Users/mac/Desktop/github/plugins/packages/image_picker/example/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/442bcc5b4988f04cf7874c8f8ab32f3f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/c1d08fef4e4147911cb841cdb711ccb1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/bb094f8149ac97797b7f006432c93428/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/963467487a065de73e1516998fb0578d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/2e443b32f0336d477dbad1b65556ebd7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/1dd092988e20aeab9e9cc85fa251c958/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/abff732f638515cd586a25528f427101/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/022bdd9dda54a6463145060614e69d5f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/e48a784eba4580d39e243a6d6d6b0cf9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/f949b6814c011fae81db301651eca282/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/ecd3a122ee2c209984e48f96b302e958/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/a0c1ca757c077045d95156266256e7fc/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/d665c9a7deb06fe9c21608cde5724726/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/0cb3acb3f49ebe947b3e0f14a799ae4c/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/775c80ba4f6007a20b6afca12c6c876d/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/ad9ea21700b9dd93af7ef8d2b9fd3b36/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/a727ed845cb982ec4598f1e4e00d4473/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/5dd7422ea41683be9b424402c36fa7a5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/05c39033bfa3634402ec5c459fcb6157/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/18511040f04e26324d4f3da0e68513a8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/3d9e8d4bedd7fd8eacadbafcc6228035/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/26360b0e9cda5344667ed10d1c2c5b3d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/8663c4fb551a97707d7d30c6fb3656b6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/a9d500970401c1ab7040387a46b1ea32/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/b3a5c2f6889d8872d4e3ad370164dcc8/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml:1:1-19:12
+INJECTED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml:1:1-19:12
+INJECTED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml:1:1-19:12
+	package
+		ADDED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml:2:5-52
+		INJECTED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml:1:1-19:12
+		INJECTED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml:1:1-19:12
+		INJECTED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml:4:5-66
+	android:name
+		ADDED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml:6:5-18:19
+MERGED from [:image_picker] /Users/mac/Desktop/github/plugins/packages/image_picker/example/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-20:19
+MERGED from [:image_picker] /Users/mac/Desktop/github/plugins/packages/image_picker/example/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-20:19
+MERGED from [androidx.core:core:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/0cb3acb3f49ebe947b3e0f14a799ae4c/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/0cb3acb3f49ebe947b3e0f14a799ae4c/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/775c80ba4f6007a20b6afca12c6c876d/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/775c80ba4f6007a20b6afca12c6c876d/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/0cb3acb3f49ebe947b3e0f14a799ae4c/AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml:6:67-103
+	android:icon
+		ADDED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml:6:104-138
+	android:name
+		ADDED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml:6:18-66
+activity#io.flutter.plugins.imagepickerexample.MainActivity
+ADDED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml:7:9-17:20
+	android:launchMode
+		ADDED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml:8:19-49
+	android:hardwareAccelerated
+		ADDED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml:11:19-53
+	android:windowSoftInputMode
+		ADDED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml:12:19-61
+	android:configChanges
+		ADDED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml:10:19-112
+	android:theme
+		ADDED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml:9:19-72
+	android:name
+		ADDED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml:7:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml:13:13-16:29
+action#android.intent.action.MAIN
+ADDED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml:14:17-68
+	android:name
+		ADDED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml:15:17-76
+	android:name
+		ADDED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml:15:27-74
+uses-sdk
+INJECTED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml
+MERGED from [:video_player] /Users/mac/Desktop/github/plugins/packages/image_picker/example/build/video_player/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:video_player] /Users/mac/Desktop/github/plugins/packages/image_picker/example/build/video_player/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /Users/mac/Desktop/github/plugins/packages/image_picker/example/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /Users/mac/Desktop/github/plugins/packages/image_picker/example/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/442bcc5b4988f04cf7874c8f8ab32f3f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/442bcc5b4988f04cf7874c8f8ab32f3f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/c1d08fef4e4147911cb841cdb711ccb1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/c1d08fef4e4147911cb841cdb711ccb1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/bb094f8149ac97797b7f006432c93428/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/bb094f8149ac97797b7f006432c93428/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/963467487a065de73e1516998fb0578d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/963467487a065de73e1516998fb0578d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/2e443b32f0336d477dbad1b65556ebd7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/2e443b32f0336d477dbad1b65556ebd7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/1dd092988e20aeab9e9cc85fa251c958/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/1dd092988e20aeab9e9cc85fa251c958/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/abff732f638515cd586a25528f427101/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/abff732f638515cd586a25528f427101/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/022bdd9dda54a6463145060614e69d5f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/022bdd9dda54a6463145060614e69d5f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/e48a784eba4580d39e243a6d6d6b0cf9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/e48a784eba4580d39e243a6d6d6b0cf9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/f949b6814c011fae81db301651eca282/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/f949b6814c011fae81db301651eca282/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/ecd3a122ee2c209984e48f96b302e958/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/ecd3a122ee2c209984e48f96b302e958/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/a0c1ca757c077045d95156266256e7fc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/a0c1ca757c077045d95156266256e7fc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/d665c9a7deb06fe9c21608cde5724726/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/d665c9a7deb06fe9c21608cde5724726/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/0cb3acb3f49ebe947b3e0f14a799ae4c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/0cb3acb3f49ebe947b3e0f14a799ae4c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/775c80ba4f6007a20b6afca12c6c876d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/775c80ba4f6007a20b6afca12c6c876d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/ad9ea21700b9dd93af7ef8d2b9fd3b36/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/ad9ea21700b9dd93af7ef8d2b9fd3b36/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/a727ed845cb982ec4598f1e4e00d4473/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/a727ed845cb982ec4598f1e4e00d4473/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/5dd7422ea41683be9b424402c36fa7a5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/5dd7422ea41683be9b424402c36fa7a5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/05c39033bfa3634402ec5c459fcb6157/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/05c39033bfa3634402ec5c459fcb6157/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/18511040f04e26324d4f3da0e68513a8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/18511040f04e26324d4f3da0e68513a8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/3d9e8d4bedd7fd8eacadbafcc6228035/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/3d9e8d4bedd7fd8eacadbafcc6228035/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/26360b0e9cda5344667ed10d1c2c5b3d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/26360b0e9cda5344667ed10d1c2c5b3d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/8663c4fb551a97707d7d30c6fb3656b6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/8663c4fb551a97707d7d30c6fb3656b6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/a9d500970401c1ab7040387a46b1ea32/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/a9d500970401c1ab7040387a46b1ea32/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/b3a5c2f6889d8872d4e3ad370164dcc8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/mac/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/b3a5c2f6889d8872d4e3ad370164dcc8/AndroidManifest.xml:20:5-44
+INJECTED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mac/Desktop/github/plugins/packages/image_picker/example/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:image_picker] /Users/mac/Desktop/github/plugins/packages/image_picker/example/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from [:image_picker] /Users/mac/Desktop/github/plugins/packages/image_picker/example/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:image_picker] /Users/mac/Desktop/github/plugins/packages/image_picker/example/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from [:image_picker] /Users/mac/Desktop/github/plugins/packages/image_picker/example/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-78
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker] /Users/mac/Desktop/github/plugins/packages/image_picker/example/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
+	android:grantUriPermissions
+		ADDED from [:image_picker] /Users/mac/Desktop/github/plugins/packages/image_picker/example/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
+	android:authorities
+		ADDED from [:image_picker] /Users/mac/Desktop/github/plugins/packages/image_picker/example/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
+	android:exported
+		ADDED from [:image_picker] /Users/mac/Desktop/github/plugins/packages/image_picker/example/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+	android:name
+		ADDED from [:image_picker] /Users/mac/Desktop/github/plugins/packages/image_picker/example/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker] /Users/mac/Desktop/github/plugins/packages/image_picker/example/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+	android:resource
+		ADDED from [:image_picker] /Users/mac/Desktop/github/plugins/packages/image_picker/example/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+	android:name
+		ADDED from [:image_picker] /Users/mac/Desktop/github/plugins/packages/image_picker/example/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
