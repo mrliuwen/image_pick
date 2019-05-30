@@ -454,12 +454,7 @@ public class ImagePickerDelegate
   private void handleChooseVideoResult(int resultCode, Intent data) {
     if (resultCode == Activity.RESULT_OK && data != null) {
       String path = fileUtils.getPathFromUri(activity, data.getData());
-      MediaMetadataRetriever mmr = new MediaMetadataRetriever();
-      mmr.setDataSource(path);
-      //获取第一帧图像的bitmap对象
-      Bitmap bitmap = mmr.getFrameAtTime();
-      String screenshot_path = saveCropBitmap(bitmap);
-      handleVideoResult(path+"@@"+screenshot_path);
+      handleVideoResult(path);
       return;
     }
 
@@ -523,7 +518,13 @@ public class ImagePickerDelegate
           new OnPathReadyListener() {
             @Override
             public void onPathReady(String path) {
-              handleVideoResult(path);
+              String path = fileUtils.getPathFromUri(activity, data.getData());
+              MediaMetadataRetriever mmr = new MediaMetadataRetriever();
+              mmr.setDataSource(path);
+              //获取第一帧图像的bitmap对象
+              Bitmap bitmap = mmr.getFrameAtTime();
+              String screenshot_path = saveCropBitmap(bitmap);
+              handleVideoResult(path+"@@"+screenshot_path);
             }
           });
       return;
