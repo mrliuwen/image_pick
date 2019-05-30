@@ -62,7 +62,7 @@ class ImagePicker {
       },
     );
 
-    return  path??null ;
+    return  path == null ? null : File(path);
   }
 
   /// Returns a [File] object pointing to the video that was picked.
@@ -72,7 +72,7 @@ class ImagePicker {
   ///
   /// In Android, the MainActivity can be destroyed for various fo reasons. If that happens, the result will be lost
   /// in this call. You can then call [retrieveLostData] when your app relaunches to retrieve the lost data.
-  static Future<File> pickVideo({
+  static Future<String> pickVideo({
     @required ImageSource source,
   }) async {
     assert(source != null);
@@ -86,7 +86,7 @@ class ImagePicker {
         'source': source.index,
       },
     );
-    return path == null ? null : File(path);
+    return path ??null;
   }
 
   /// Retrieve the lost image file when [pickImage] or [pickVideo] failed because the  MainActivity is destroyed. (Android only)
