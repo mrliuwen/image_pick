@@ -59,7 +59,7 @@ class ImagePicker {
     return path == null ? null : File(path);
   }
 
-  static Future<File> pickVideo({
+  static Future<String> pickVideo({
     @required ImageSource source,
   }) async {
     assert(source != null);
@@ -73,6 +73,6 @@ class ImagePicker {
         'source': source.index,
       },
     );
-    return path == null ? null : File(path);
+    return path ??null  ;
   }
 }
