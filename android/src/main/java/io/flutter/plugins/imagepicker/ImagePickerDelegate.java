@@ -27,6 +27,7 @@ import android.media.MediaMetadataRetriever;
 import android.graphics.Bitmap;
 import java.io.FileOutputStream;
 import android.graphics.Bitmap.CompressFormat;
+import android.os.Environment;
 /**
  * A delegate class doing the heavy lifting for the plugin.
  *
