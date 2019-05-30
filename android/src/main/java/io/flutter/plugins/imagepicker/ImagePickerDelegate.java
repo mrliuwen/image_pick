@@ -23,6 +23,8 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 import java.util.UUID;
+import android.media.MediaMetadataRetriever;
+import android.graphics.Bitmap;
 
 /**
  * A delegate class doing the heavy lifting for the plugin.
@@ -450,12 +452,45 @@ public class ImagePickerDelegate
   private void handleChooseVideoResult(int resultCode, Intent data) {
     if (resultCode == Activity.RESULT_OK && data != null) {
       String path = fileUtils.getPathFromUri(activity, data.getData());
-      handleVideoResult(path);
+      MediaMetadataRetriever mmr = new MediaMetadataRetriever();
+      mmr.setDataSource(path);
+      //获取第一帧图像的bitmap对象
+      Bitmap bitmap = mmr.getFrameAtTime();
+      String screenshot_path = saveCropBitmap(bitmap);
+      handleVideoResult(path+"@@"+screenshot_path);
       return;
     }
 
     // User cancelled choosing a picture.
     finishWithSuccess(null);
+  }
+
+  public String saveCropBitmap(Bitmap bmp) {
+    if(bmp == null) {
+      return "";
+    } else {
+      File file = null;
+      Bitmap.CompressFormat format = Bitmap.CompressFormat.JPEG;
+      int quality = 100;
+      FileOutputStream stream = null;
+
+      try {
+        file = new  File(getAlbumDir(),UUID.randomUUID().toString());
+        stream = new FileOutputStream(file);
+      } catch (IOException var7) {
+        var7.printStackTrace();
+      }
+
+      return bmp.compress(format, quality, stream)?file.getAbsolutePath():"";
+    }
+  }
+  public File getAlbumDir() {
+    File dir = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES),  "/big");
+    if(!dir.exists()) {
+      dir.mkdirs();
+    }
+
+    return dir;
   }
 
   private void handleCaptureImageResult(int resultCode) {

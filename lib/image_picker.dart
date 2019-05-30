@@ -62,7 +62,7 @@ class ImagePicker {
       },
     );
 
-    return path == null ? null : File(path);
+    return  path??null ;
   }
 
   /// Returns a [File] object pointing to the video that was picked.
